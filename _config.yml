@@ -26,9 +26,7 @@ projects:
     archived: false
     forks: true
     projects:
-      - ci-jwt
-      - blog
-      - cartify
+      #- project
 
 social_media:
   # behance: your_username
