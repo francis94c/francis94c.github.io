@@ -28,6 +28,14 @@ projects:
     projects:
       #- project
 
+products:
+  - Splint:
+      image: https://splint.cynobit.com/images/logo.png
+      description: A Package and Dependency Manager for Code Igniter.
+      languages:
+        - PHP
+        - Java
+
 social_media:
   # behance: your_username
   # dribbble: your_username

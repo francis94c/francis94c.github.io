@@ -1,0 +1,19 @@
+<div class="github-component d-flex flex-column flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
+  <div>
+    <div class="d-flex flex-justify-between flex-items-start mb-1">
+      <h1 class="f4 lh-condensed mb-1">
+        <a href="{{ product.url }}">
+          {% octicon rocket height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:repo %}
+          {{ product.name }}
+        </a>
+      </h1>
+    </div>
+    <div class="text-gray mb-2 ws-normal">{{ product.description }}</div>
+  </div>
+  <div class="d-flex f6">
+    {% if product.languages %}
+        <span class="repo-language-color ml-0 mr-1" style="background-color:{{ site.data.colors['PHP']["color"] }}"></span>
+        <span class="mr-3" itemprop="programmingLanguage">PHP</span>
+    {% endif %}
+  </div>
+</div>
