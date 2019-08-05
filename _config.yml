@@ -21,12 +21,16 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 13
+  limit: 17
   exclude:
     archived: false
     forks: true
     projects:
       - francis94c.github.io
+      - Travelmantics
+      - sms-vote-web-app
+      - agricultural-e-commerce
+      - ALC40Phase1
 
 products:
   - name: Splint
