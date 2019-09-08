@@ -42,6 +42,14 @@ products:
       - php:
       - java:
 
+libraries:
+  - name: Refactor CI
+    url: https://francis94c.github.io/refactor-ci
+    image: https://www.pngfind.com/pngs/m/240-2401856_cleaning-services-png-cleaning-service-logo-black-and.png
+    description: Refactor associative arrays based on defined rules.
+    languages:
+      - php:
+
 social_media:
   # behance: your_username
   # dribbble: your_username

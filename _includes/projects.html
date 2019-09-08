@@ -33,3 +33,11 @@
     </div>
 {% endfor %}
 </div>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Featured Libraries/APIs.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+{% for product in site.libraries %}
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include product-card.html %}
+    </div>
+{% endfor %}
+</div>
